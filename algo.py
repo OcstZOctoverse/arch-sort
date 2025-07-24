@@ -1,5 +1,5 @@
 def arch_sort(list):
-  for i in range(len(list))
+  for i in range(len(list)):
     swap = False
     for item in list:
       if item > list[i]:
