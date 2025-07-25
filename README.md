@@ -6,3 +6,4 @@ to my knowledge, this is a new sorting algorithm, but I could be incredibly wron
 i call it arch-sort because of a way i have sort of diagrammed it in my mind
 
 this repo includes the algorithm and an example implementation.
+i also added a cool comparisons counter.
