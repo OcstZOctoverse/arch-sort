@@ -1,4 +1,14 @@
 def arch_sort(list):
+  greatest = True
+  for i in range(1, len(list)):
+    if list[0] > list[1]:
+        greatest = False
+        break
+    if greatest is True:
+        for i in range(1, len(list)):
+            temp = list[i]
+            list[0] = list[i]
+            list[i] = temp
   for i in range(len(list)):
     swap = False
     for item in list:
