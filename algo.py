@@ -1,7 +1,7 @@
 def arch_sort(list):
   greatest = True
   for i in range(1, len(list)):
-    if list[0] > list[1]:
+    if list[0] > list[i]:
         greatest = False
         break
     if greatest is True:
