@@ -1,5 +1,5 @@
 from random import randint
-from algo.py import arch_sort
+from algo import arch_sort
 
 list = []
 
